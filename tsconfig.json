@@ -1,19 +1,8 @@
 {
 	"compileOnSave": false,
 	"compilerOptions": {
-		"noEmit": true,
-		"allowJs": false,
-		"lib": [ "DOM", "es7" ],
-		"skipDefaultLibCheck": false,
-		"pretty": true,
-		"noImplicitAny": true,
-		"strictNullChecks": true,
-		"alwaysStrict": true,
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
-		"importHelpers": true
-	},
-	"include": [
-		"./src/**/*.ts"
-	]
+		"lib": [ "ES2018" ],
+		"strict": true,
+		"esModuleInterop": true
+	}
 }

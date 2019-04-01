@@ -2,6 +2,9 @@
 ':' //# http://sambal.org/?p=1014 ; exec /usr/bin/env node "$0" "$@"
 'use strict';
 
-const foo = require('@atlaskit/analytics')
+const prettyjson = require('prettyjson')
+
+const test = require('@offirmo/globalthis-ponyfill')
 
 console.log('Hello')
+console.log('Exported symbols:\n', prettyjson.render(Object.keys(test)))
