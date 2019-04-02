@@ -4,7 +4,7 @@
 
 const prettyjson = require('prettyjson')
 
-const test = require('@offirmo/globalthis-ponyfill')
+const test = require('hello-world-emo')
 
 console.log('Hello')
 console.log('Exported symbols:\n', prettyjson.render(Object.keys(test)))

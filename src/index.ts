@@ -4,7 +4,7 @@
 
 import prettyjson from 'prettyjson'
 
-import * as test from '@offirmo/globalthis-ponyfill'
+import * as test from 'hello-world-emo'
 
 declare const console: any
 

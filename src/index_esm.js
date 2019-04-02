@@ -4,7 +4,7 @@
 
 import prettyjson from 'prettyjson'
 
-import * as test from '@offirmo/globalthis-ponyfill'
+import * as test from 'hello-world-emo'
 
 console.log('Hello')
 console.log('Exported symbols:\n', prettyjson.render(Object.keys(test)))
